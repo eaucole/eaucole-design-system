@@ -19,5 +19,8 @@ The icons used is: <br/>
 </ul>
 These icons is obtained via: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css
 
+### Documentation
+The documentation for this design system can be found in design.eaucole.com
+
 ### References
 Creating a design system: https://coyleandrew.medium.com/a-quick-guide-to-creating-a-design-system-7888e267171f
