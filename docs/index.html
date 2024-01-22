@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EDS - Documentation</title>
+    <meta name="og:title" content="EDS - Documentation">
+    <meta name="description" content="Documentation for EAUCOLE Design System.">
+    <meta name="og:description" content="Documentation for EAUCOLE Design System.">
+    <meta name="keywords" content="EAUCOLE, eaucole">
+    <meta name="author" content="EDS - Documentation">
+    <meta name="robots" content="index, follow">
+    <meta name="og:image" content="/assets/eaucole.jpeg"> 
+    <link rel="icon" href="/assets/eaucole.jpeg" />
+    <!-- <meta name="og:url" content=""> -->
+    <meta name="og:type" content="website">
+
+    <link rel="stylesheet" href="/design-system/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="/design-system/eds.css">
+    <script src="/design-system/bootstrap4/jquery.slim.min.js"></script>
+    <script src="/design-system/bootstrap4/popper.min.js"></script>
+    <script src="/design-system/bootstrap4/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-white navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">
+                        <h4 class="font-weight-light">
+                            <img src="/assets/eaucole.jpeg" width="45" alt="EAUCOLE logo">
+                            EAUCOLE
+                        </h4>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container mt-3">
+        <!-- <h3 class="font-weight-light mb-3">Documentation</h3> -->
+
+        <div class="alert border-dark font-weight-light mb-3">
+            <h3 class="float-left mr-3">
+                <i class="fas fa-circle-info"></i>
+            </h3>
+            <div class="mt-1 mb-1">This documentation is currently being updated. Stay tuned.</div>
+        </div>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#Typography">Typography</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#Colours">Colours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#Buttons">Buttons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#Inputs">Inputs</a>
+            </li>
+        </ul>
+
+        <div class="tab-content mt-3">
+
+            <!-- Typography -->
+            <div class="tab-pane active" id="Typography">
+                <h3 class="font-weight-light">Roboto</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="font-weight-light">Bold</h3>
+                        <small class="font-weight-light">
+                            No class is needed. Default h1-h6 tag
+                        </small>
+                        <h1>Headline 1</h1>
+                        <h2>Headline 1</h2>
+                        <h3>Headline 1</h3>
+                        <h4>Headline 1</h4>
+                        <h5>Headline 1</h5>
+                        <h6>Headline 1</h6>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="font-weight-light">Light</h3>
+                        <small class="font-weight-light">
+                            Add a class="font-weight-light"
+                        </small>
+
+                        <h1 class="font-weight-light">Headline 1</h1>
+                        <h2 class="font-weight-light">Headline 1</h2>
+                        <h3 class="font-weight-light">Headline 1</h3>
+                        <h4 class="font-weight-light">Headline 1</h4>
+                        <h5 class="font-weight-light">Headline 1</h5>
+                        <h6 class="font-weight-light">Headline 1</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colours -->
+            <div class="tab-pane fade" id="Colours">
+                <hr>
+
+                <div class="d-flex mb-3">
+                    <div class="cbox bg-dark"></div>
+                    <span class="ml-3 font-weight-light">
+                        Dark <br>
+                        --dark: #252e35;
+                    </span>
+                </div>
+
+                <div class="d-flex mb-3">
+                    <div class="cbox bg-primary"></div>
+                    <span class="ml-3 font-weight-light">
+                        Primary <br>
+                        --primary: #2983c8;
+                    </span>
+                </div>
+
+                <div class="d-flex mb-3">
+                    <div class="cbox bg-error"></div>
+                    <span class="ml-3 font-weight-light">
+                        Error <br>
+                        --error: #a11422;
+                    </span>
+                </div>
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="tab-pane" id="Buttons">
+                <hr>
+                <div class="mb-3">
+                    <button class="btn btn-dark float-left">
+                        Button
+                    </button>
+                    <span class="ml-3 font-weight-light">
+                        Default <br>
+                        <span class="ml-3">opacity 1</span>
+                    </span>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-dark float-left btn-hover">
+                        Button
+                    </button>
+                    <span class="ml-3 font-weight-light">
+                        Hover <br>
+                        <span class="ml-3">opacity 0.8</span>
+                    </span>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-dark float-left btn-active">
+                        Button
+                    </button>
+                    <span class="ml-3 font-weight-light">
+                        Active <br>
+                        <span class="ml-3">box-shadow: 0 0 0 0.15rem var(--dark)</span>
+                    </span>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-dark float-left" disabled>
+                        Button
+                    </button>
+                    <span class="ml-3 font-weight-light">
+                        Disabled <br>
+                        <span class="ml-3">opacity 0.45</span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Inputs -->
+            <div class="tab-pane fade" id="Inputs">
+                <hr>
+
+                <div class="mb-3 d-flex">
+                    <input type="text" class="form-control w-300px">
+                    <span class="ml-3 font-weight-light">
+                        Default <br>
+                        <span>Unstyled</span>
+                    </span>
+                </div>
+
+                <div class="mb-3 d-flex">
+                    <input type="text" class="form-control w-300px form-control-hover">
+                    <span class="ml-3 font-weight-light">
+                        Hover <br>
+                        <span> border: 1px solid var(--dark)</span>
+                    </span>
+                </div>
+
+                <div class="mb-3 d-flex">
+                    <input type="text" class="form-control w-300px form-control-focus">
+                    <span class="ml-3 font-weight-light">
+                        Focused <br>
+                        <span> border: 2px solid var(--dark)</span>
+                    </span>
+                </div>
+
+
+                <div class="mb-3 d-flex">
+                    <input type="text" class="form-control w-300px form-control-error">
+                    <span class="ml-3 font-weight-light">
+                        Error <br>
+                        <span> border: 2px solid var(--error)</span>
+                    </span>
+                </div>
+                
+            </div>
+
+        </div>
+
+</div>
+
+
+<style>
+.cbox{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+}
+</style>
+</body>
+</html>
